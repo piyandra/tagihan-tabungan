@@ -21,7 +21,6 @@ Response Body (Success):
 
 ```json
 {
-  "status" : "OK",
   "data" : {
     "name" : "Viandra Stefani",
     "address" : "Gumiwang RT 06/03",
@@ -29,14 +28,12 @@ Response Body (Success):
     "account" : "117201002156",
     "product" : "210",
     "balance" : "Rp1.500.000"
-  }
 }
 ```
 
 Response Body (Error Not Found):
 ```json
 {
-  "status" : "KO",
   "error" : "Not Found"
 }
 ```
